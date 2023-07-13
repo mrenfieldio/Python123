@@ -78,14 +78,3 @@ print(a!=c)"""
 d="Python"
 print(b is d)
 
-
-
-
-
-
-
-
-
-
-
-
