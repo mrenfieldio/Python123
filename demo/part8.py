@@ -9,9 +9,9 @@ else:
     print("scalen")"""
 
 as1=input("enter a value ")
-if as1>='a' and as1<='z' or as1>='A' and as1<='Z' :
+if as1.isalpha() :
     print(as1,"is an alphabet ")
-elif  as1>'1':
+elif  as1.isdigit():
     print("digit")
 else:
     print("special character")
