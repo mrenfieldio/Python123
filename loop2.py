@@ -14,7 +14,7 @@ a1=['a','b','m','a','c','a','b','c']
 c=0
 d={}
 for i in a1:
-    print(i)
+   
     d.update({i:a1.count(i)})
 
 print(d)
