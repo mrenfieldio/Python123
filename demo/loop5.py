@@ -14,8 +14,6 @@ print(s1)'''
 
     #REMOVE THE SPECIAL CHARACTER
 
-a1=input("enter some values ")
-print(a2)
 
     
 
