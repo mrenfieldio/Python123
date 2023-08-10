@@ -19,8 +19,9 @@
 a1=int(input("enter a limit to print prime numbers "))
 a2=int(input(""))
 count=0
+
 for i in range(a1,a2+1):
-    for j in range(1,10):
+    for j in range(1,i):
       if i%j==0 or a1==1:
         count+=1 
     if count>2:
